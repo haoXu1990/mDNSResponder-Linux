@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.4"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "mDNSPosix",
+					"jsonFile" : "directory-mDNSPosix-Debug-9e920a8bca99cae662aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mDNSPosix",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Carplay"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "zx-mdnsd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "mdnssd::@e90645f59ba8bd9e9e08",
+					"jsonFile" : "target-mdnssd-Debug-f5b9ef81f444dd1d520f.json",
+					"name" : "mdnssd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zx-mdnsd::@e90645f59ba8bd9e9e08",
+					"jsonFile" : "target-zx-mdnsd-Debug-a7c4ffb1e65cfd2cb16e.json",
+					"name" : "zx-mdnsd",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug",
+		"source" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

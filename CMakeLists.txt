@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.26.4)
+
+project(Carplay)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+if (CMAKE_EXPORT_COMPILE_COMMANDS)
+    set(CMAKE_CXX_STANDARD_INCLUDE_DIRECTORIES ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})
+endif ()
+set(CMAKE_VERBOSE_MAKEFILE on)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(TARGET_OUT ${CMAKE_SOURCE_DIR}/out)
+
+set(CMAKE_PREFIX_PATH
+        ${CMAKE_PREFIX_PATH}
+        ${TARGET_OUT}
+)
+# -rdynamic
+set(CMAKE_CXX_FLAGS "-O2 -g -Wl,--no-undefined -pipe -W -D_REENTRANT -fPIC -Wno-unused-parameter")
+
+add_subdirectory(mDNSPosix)

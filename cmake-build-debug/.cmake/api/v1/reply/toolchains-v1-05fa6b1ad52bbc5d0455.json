@@ -1,0 +1,112 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1/include",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1/include-fixed",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/include",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/lib",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/lib",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc.exe",
+				"version" : "5.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.3.1/arm-linux-gnueabi",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/include/c++/5.3.1/backward",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1/include",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1/include-fixed",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/include",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc/arm-linux-gnueabi",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/lib/gcc",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/arm-linux-gnueabi/lib",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/lib",
+						"Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++.exe",
+				"version" : "5.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

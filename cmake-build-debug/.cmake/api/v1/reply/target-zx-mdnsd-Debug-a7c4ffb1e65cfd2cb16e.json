@@ -1,0 +1,394 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "mDNSPosix/zx-mdnsd"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"INCLUDE_DIRECTORIES",
+			"include",
+			"project",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"mDNSPosix/CMakeLists.txt",
+			"D:/works/project/Linux/work/AutoCore/toolchain.cmake",
+			"C:/Users/qc265/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.14475.31/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 148,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always   -O2 -g -fno-strict-aliasing -fwrapv -W -Wall -Wextra -Wno-address-of-packed-member -Wno-array-bounds -Wno-pointer-sign -Wno-unused -Wno-unused-parameter -Werror=implicit-function-declaration -Wno-expansion-to-defined"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_IPV6"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_LINUX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MDNS_DEBUGMSGS=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MDNS_UDS_SERVERPATH=\"/dev/socket/zx-mdnsd\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MDNS_USERNAME=\"mdnsr\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MDNS_VERSIONSTR_NODTS=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOT_HAVE_SA_LEN"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PID_FILE=\"/dev/socket/zx-mdnsd\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PLATFORM_NO_RLIMIT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POSIX_BUILD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TARGET_OS_LINUX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USES_NETLINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_GNU_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib/glib-2.0/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/include/gio-unix-2.0"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/zx-mdnsd"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../mDNSPosix"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../mDNSCore"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../mDNSShared"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../mDNSShared/utilities"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../DSO"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/mDNSPosix/../ServiceRegistration"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			],
+			"sysroot" : 
+			{
+				"path" : "Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot"
+			}
+		}
+	],
+	"id" : "zx-mdnsd::@e90645f59ba8bd9e9e08",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "Y:/work/t113_linux/out/t113_i/cqlht113_linux_nand/longan/buildroot/host/usr/arm-buildroot-linux-gnueabi/sysroot"
+		}
+	},
+	"name" : "zx-mdnsd",
+	"nameOnDisk" : "zx-mdnsd",
+	"paths" : 
+	{
+		"build" : "mDNSPosix",
+		"source" : "mDNSPosix"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSPosix/PosixDaemon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSPosix/mDNSPosix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSPosix/mDNSUNP.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSCore/DNSCommon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSCore/mDNS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSCore/DNSDigest.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSCore/uDNS.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/uds_daemon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/mDNSDebug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/dnssd_ipc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/GenLinkedList.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/ClientRequests.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/dnssd_clientshim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/utilities/mdns_addr_tailq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/utilities/misc_utilities.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mDNSShared/PlatformCommon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DSO/dso.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "DSO/dso-transport.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

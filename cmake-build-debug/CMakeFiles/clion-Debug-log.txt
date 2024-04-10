@@ -1,0 +1,16 @@
+C:\Users\qc265\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14475.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/qc265/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.14475.31/bin/ninja/win/x64/ninja.exe -DCMAKE_TOOLCHAIN_FILE=D:/works/project/Linux/work/AutoCore/toolchain.cmake -S D:\works\project\Linux\mDNSResponder-mDNSResponder-2200.100.94.0.2 -B D:\works\project\Linux\mDNSResponder-mDNSResponder-2200.100.94.0.2\cmake-build-debug
+-- The C compiler identification is GNU 5.3.1
+-- The CXX compiler identification is GNU 5.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug

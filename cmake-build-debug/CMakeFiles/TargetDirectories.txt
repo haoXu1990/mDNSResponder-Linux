@@ -1,0 +1,6 @@
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/mDNSPosix/CMakeFiles/zx-mdnsd.dir
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/mDNSPosix/CMakeFiles/mdnssd.dir
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/mDNSPosix/CMakeFiles/edit_cache.dir
+D:/works/project/Linux/mDNSResponder-mDNSResponder-2200.100.94.0.2/cmake-build-debug/mDNSPosix/CMakeFiles/rebuild_cache.dir
